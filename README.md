@@ -142,10 +142,13 @@ Repositórios:
 
 Empresas que utilizam C++ multiplataforma:
 
-- Ubook  
-- Dropbox  
-- Snapchat  
-- Spotify  
+- Ubook
+- Dropbox
+- Snapchat
+- Spotify
+- Telegram - TDLib
+- Microsoft - Suite Office Mobile
+- Mapbox Maps
 
 Principais benefícios:
 
