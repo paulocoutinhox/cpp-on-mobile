@@ -122,7 +122,7 @@ my_cpp_interface = interface +c {
 Gerar o código nativo:
 
 ```bash
-djinni --cpp-out CPP_OUTPUT_FOLDER        --jni-out JNI_OUTPUT_FOLDER        --objc-out OBJC_OUTPUT_FOLDER        --idl MY_PROJECT.djinni
+djinni --cpp-out CPP_OUTPUT_FOLDER --jni-out JNI_OUTPUT_FOLDER --objc-out OBJC_OUTPUT_FOLDER --idl MY_PROJECT.djinni
 ```
 
 Repositório de referência: [Snapchat/Djinni](https://github.com/Snapchat/djinni)
