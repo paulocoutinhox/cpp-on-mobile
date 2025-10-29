@@ -14,7 +14,7 @@ O objetivo é demonstrar como criar bibliotecas em C++ reutilizáveis e integrá
 ## 📁 Estrutura do Projeto
 
 ```
-CPP-ON-MOBILE/
+cpp-on-mobile/
 ├── android/
 │   ├── app/
 │   ├── gradle/
