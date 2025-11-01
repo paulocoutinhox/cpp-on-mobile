@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AA49A352EB5D442009CE890 /* MyCppLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AA49A342EB5D442009CE890 /* MyCppLib.cpp */; };
 		3AC3880527A33915000194C4 /* CppOnMobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3880427A33915000194C4 /* CppOnMobileApp.swift */; };
 		3AC3880727A33915000194C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3880627A33915000194C4 /* ContentView.swift */; };
 		3AC3880927A33932000194C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC3880827A33932000194C4 /* Assets.xcassets */; };
 		3AC3880C27A33932000194C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC3880B27A33932000194C4 /* Preview Assets.xcassets */; };
-		3AC3881427A33977000194C4 /* MyCppFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3881227A33977000194C4 /* MyCppFunction.cpp */; };
 		3AC3881627A33A2B000194C4 /* MyObjcClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3881527A33A2B000194C4 /* MyObjcClass.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AA49A332EB5D442009CE890 /* MyCppLib.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = MyCppLib.hpp; path = ../shared/MyCppLib.hpp; sourceTree = SOURCE_ROOT; };
+		3AA49A342EB5D442009CE890 /* MyCppLib.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MyCppLib.cpp; path = ../shared/MyCppLib.cpp; sourceTree = SOURCE_ROOT; };
 		3AC3880127A33915000194C4 /* CppOnMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CppOnMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AC3880427A33915000194C4 /* CppOnMobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CppOnMobileApp.swift; sourceTree = "<group>"; };
 		3AC3880627A33915000194C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3AC3880827A33932000194C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AC3880B27A33932000194C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3AC3881227A33977000194C4 /* MyCppFunction.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyCppFunction.cpp; sourceTree = "<group>"; };
-		3AC3881327A33977000194C4 /* MyCppFunction.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MyCppFunction.hpp; sourceTree = "<group>"; };
 		3AC3881527A33A2B000194C4 /* MyObjcClass.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MyObjcClass.mm; sourceTree = "<group>"; };
 		3AC3881727A33A6D000194C4 /* MyObjcClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyObjcClass.h; sourceTree = "<group>"; };
 		3AC3881827A33B2D000194C4 /* BHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHeader.h; sourceTree = "<group>"; };
@@ -58,15 +58,15 @@
 		3AC3880327A33915000194C4 /* CppOnMobile */ = {
 			isa = PBXGroup;
 			children = (
-				3AC3880427A33915000194C4 /* CppOnMobileApp.swift */,
-				3AC3880627A33915000194C4 /* ContentView.swift */,
 				3AC3880827A33932000194C4 /* Assets.xcassets */,
-				3AC3880A27A33932000194C4 /* Preview Content */,
-				3AC3881227A33977000194C4 /* MyCppFunction.cpp */,
-				3AC3881327A33977000194C4 /* MyCppFunction.hpp */,
-				3AC3881527A33A2B000194C4 /* MyObjcClass.mm */,
-				3AC3881727A33A6D000194C4 /* MyObjcClass.h */,
 				3AC3881827A33B2D000194C4 /* BHeader.h */,
+				3AC3880627A33915000194C4 /* ContentView.swift */,
+				3AC3880427A33915000194C4 /* CppOnMobileApp.swift */,
+				3AA49A332EB5D442009CE890 /* MyCppLib.hpp */,
+				3AA49A342EB5D442009CE890 /* MyCppLib.cpp */,
+				3AC3881727A33A6D000194C4 /* MyObjcClass.h */,
+				3AC3881527A33A2B000194C4 /* MyObjcClass.mm */,
+				3AC3880A27A33932000194C4 /* Preview Content */,
 			);
 			path = CppOnMobile;
 			sourceTree = "<group>";
@@ -151,7 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AC3880727A33915000194C4 /* ContentView.swift in Sources */,
-				3AC3881427A33977000194C4 /* MyCppFunction.cpp in Sources */,
+				3AA49A352EB5D442009CE890 /* MyCppLib.cpp in Sources */,
 				3AC3881627A33A2B000194C4 /* MyObjcClass.mm in Sources */,
 				3AC3880527A33915000194C4 /* CppOnMobileApp.swift in Sources */,
 			);

@@ -23,6 +23,12 @@ cpp-on-mobile/
 ├── ios/
 │   ├── CppOnMobile/
 │   └── CppOnMobile.xcodeproj
+├── desktop/
+│   ├── CMakeLists.txt
+│   └── main.cpp
+├── shared/
+│   ├── MyCppLib.hpp
+│   └── MyCppLib.cpp
 └── README.md
 ```
 

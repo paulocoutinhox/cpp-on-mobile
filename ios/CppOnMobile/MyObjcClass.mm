@@ -1,5 +1,5 @@
 #import "MyObjcClass.h"
-#import "MyCppFunction.hpp"
+#import "../../shared/MyCppLib.hpp"
 
 @implementation MyObjcClass
 
